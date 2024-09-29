@@ -1,0 +1,39 @@
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-family: "Inter";
+  color: var(--black-color);
+  background-color: var(--white-color);
+  box-shadow: var(--shadow);
+}
+.cardItem .cardItemImageWrapper {
+  width: 100%;
+  height: 16rem;
+}
+.cardItem .cardItemImageWrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+}
+.cardItem .cardItemTextWrapper {
+  padding: 1rem;
+}
+.cardItem .cardItemTitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+.cardItem .cardItemDescription {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+.cardItem .cardItemSeparator {
+  height: 0.0625rem;
+  border: none;
+  margin: 0.75rem 0;
+  background-color: var(--lightgray-color);
+}/*# sourceMappingURL=card.module.css.map */

@@ -1,0 +1,41 @@
+.opportunities {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (min-width: 1025px) {
+  .opportunities {
+    gap: 3.5rem;
+  }
+}
+
+.opportunitiesItemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+@media (min-width: 601px) {
+  .opportunitiesItemList {
+    gap: 2rem;
+  }
+  .opportunitiesItemList > div {
+    flex-direction: row-reverse;
+  }
+  .opportunitiesItemList > div > div:first-of-type {
+    width: 50%;
+    height: auto;
+  }
+  .opportunitiesItemList > div > div:nth-child(2) {
+    width: 70%;
+  }
+}
+@media (min-width: 1025px) {
+  .opportunitiesItemList > div {
+    width: 48rem;
+    height: 15rem;
+  }
+  .opportunitiesItemList > div:nth-child(2) {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=opportunities.module.css.map */

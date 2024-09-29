@@ -1,0 +1,12 @@
+.sectionHeading {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--black-color);
+  text-align: center;
+  line-height: 2rem;
+
+  @media (min-width: 769px) {
+    font-size: 1.75rem;
+  }
+}
